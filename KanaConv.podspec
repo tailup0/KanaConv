@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KanaConv'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KanaConv.'
+  s.summary          = 'Useful extensions for Japanese Kana.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Useful extensions for Japanese Kana.
+'String' is extended.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/KanaConv'
+  s.homepage         = 'https://github.com/tailup0/KanaConv'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'tailup0' => 'onoue0527@yahoo.co.jp' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/KanaConv.git', :tag => s.version.to_s }
+  s.author           = { 'tailup0' => '' }
+  s.source           = { :git => 'https://github.com/tailup0/KanaConv.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

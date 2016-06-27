@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## KanaConv
 
-Copyright (c) 2016 tailup0 <onoue0527@yahoo.co.jp>
+Copyright (c) 2016 tailup0
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -1,18 +1,18 @@
 {
   "name": "KanaConv",
   "version": "0.1.0",
-  "summary": "A short description of KanaConv.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/KanaConv",
+  "summary": "Useful extensions for Japanese Kana.",
+  "description": "Useful extensions for Japanese Kana.\n'String' is extended.",
+  "homepage": "https://github.com/tailup0/KanaConv",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "tailup0": "onoue0527@yahoo.co.jp"
+    "tailup0": ""
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/KanaConv.git",
+    "git": "https://github.com/tailup0/KanaConv.git",
     "tag": "0.1.0"
   },
   "platforms": {

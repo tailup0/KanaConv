@@ -1,15 +1,11 @@
 # KanaConv
 
+Useful extensions for Japanese Kana.
+
 [![CI Status](http://img.shields.io/travis/tailup0/KanaConv.svg?style=flat)](https://travis-ci.org/tailup0/KanaConv)
 [![Version](https://img.shields.io/cocoapods/v/KanaConv.svg?style=flat)](http://cocoapods.org/pods/KanaConv)
 [![License](https://img.shields.io/cocoapods/l/KanaConv.svg?style=flat)](http://cocoapods.org/pods/KanaConv)
-[![Platform](https://img.shields.io/cocoapods/p/KanaConv.svg?style=flat)](http://cocoapods.org/pods/KanaConv)
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+[![Platform](https://img.shields.io/cocoapods/p/KanaConv.svg?style=flat)](http://cocoapods.org/pods/KanaConv
 
 ## Installation
 
@@ -20,9 +16,17 @@ it, simply add the following line to your Podfile:
 pod "KanaConv"
 ```
 
+
+## Examples
+
+```swift
+xxxxx
+xxxxx
+```
+
 ## Author
 
-tailup0, onoue0527@yahoo.co.jp
+tailup0
 
 ## License
 

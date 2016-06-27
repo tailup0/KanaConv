@@ -10,10 +10,10 @@
 		09E25A129ED76F64AC2F7A88E6A7339A /* Pods-KanaConv_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF2ADC02907A09BD923024690098C9F /* Pods-KanaConv_Tests-dummy.m */; };
 		1EE3582A0D05CBF4A503397F8D6873C4 /* KanaConv-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5D84525145BBEB3C0E42D54CB48FBB /* KanaConv-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23EDFDE6B74DD8955BB71E6F1B4C5BE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		3AB89F458798AD2EFF0CE9456CEC8902 /* KanaConv-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B435C0C0CC88D901B11B07C1DB78EAC /* KanaConv-dummy.m */; };
 		42B29FBEF1A36D94586AE487C9ACD32A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		4491FA9AC3B98972013052D8248A4403 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD622D28AC41486DB9223C965347BB0B /* ReplaceMe.swift */; };
+		5CFB6F00109D7964DE6614AD0009F960 /* KanaConv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26660D12456ED155F049E2D678197A8C /* KanaConv.swift */; };
 		A93D323F236EED4F89607AAB6B1D808A /* Pods-KanaConv_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 527EA3DB32F4BA20378BB63F2AEB3517 /* Pods-KanaConv_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5959AA676ACFD4A4794728ABB809A2B /* KanaConv-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B435C0C0CC88D901B11B07C1DB78EAC /* KanaConv-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		1CF2ADC02907A09BD923024690098C9F /* Pods-KanaConv_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KanaConv_Tests-dummy.m"; sourceTree = "<group>"; };
+		26660D12456ED155F049E2D678197A8C /* KanaConv.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KanaConv.swift; sourceTree = "<group>"; };
 		4B435C0C0CC88D901B11B07C1DB78EAC /* KanaConv-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KanaConv-dummy.m"; sourceTree = "<group>"; };
 		527EA3DB32F4BA20378BB63F2AEB3517 /* Pods-KanaConv_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KanaConv_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5BA0BAA8A5524BBB0CA37F33540031F6 /* Pods-KanaConv_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KanaConv_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -41,7 +42,6 @@
 		AAE0433A45ACC92F14542B71A377A0EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4A1D120A0F4DE7A06D2EA12C758F628 /* Pods-KanaConv_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KanaConv_Tests-resources.sh"; sourceTree = "<group>"; };
 		B57E87C20CDAF0BD9BC876E6DDC71C76 /* Pods-KanaConv_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KanaConv_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		BD622D28AC41486DB9223C965347BB0B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		C9DDD1603ED5132EA92FE7A561EB6297 /* Pods-KanaConv_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KanaConv_Tests.modulemap"; sourceTree = "<group>"; };
 		CB8DB19FF82E48ED6074C62F0D93871E /* KanaConv.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KanaConv.xcconfig; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -70,6 +70,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		008052D292077EB4AAB016F50094560F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				26660D12456ED155F049E2D678197A8C /* KanaConv.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		15E7EBC621062198A644D154C779CEF4 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,7 +97,7 @@
 		63740504F7E348F5929A20F1FA25EA32 /* KanaConv */ = {
 			isa = PBXGroup;
 			children = (
-				DF9674967C2FABD6A48C337EC5774B46 /* Classes */,
+				008052D292077EB4AAB016F50094560F /* Classes */,
 			);
 			path = KanaConv;
 			sourceTree = "<group>";
@@ -172,14 +180,6 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		DF9674967C2FABD6A48C337EC5774B46 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				BD622D28AC41486DB9223C965347BB0B /* ReplaceMe.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -206,7 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F303075448B0E875E42CC43E6307B5B /* Build configuration list for PBXNativeTarget "KanaConv" */;
 			buildPhases = (
-				1F3756E6DDC20A05F38141D4CBB00EBE /* Sources */,
+				BEEA55318F2074B2A8E7B053EFA2E76D /* Sources */,
 				18424499D5373B2550C45A323C454FF5 /* Frameworks */,
 				5EB3B9E3C215222B38545E2EC514B862 /* Headers */,
 			);
@@ -265,20 +265,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1F3756E6DDC20A05F38141D4CBB00EBE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3AB89F458798AD2EFF0CE9456CEC8902 /* KanaConv-dummy.m in Sources */,
-				4491FA9AC3B98972013052D8248A4403 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		38717DF6B5A69E18C398BCF1F1B89959 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				09E25A129ED76F64AC2F7A88E6A7339A /* Pods-KanaConv_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEEA55318F2074B2A8E7B053EFA2E76D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5959AA676ACFD4A4794728ABB809A2B /* KanaConv-dummy.m in Sources */,
+				5CFB6F00109D7964DE6614AD0009F960 /* KanaConv.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
