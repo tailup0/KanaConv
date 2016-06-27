@@ -1,0 +1,6 @@
+use_frameworks!
+target 'KanaConv_Tests' do
+  pod 'KanaConv', :path => '../'
+  
+  
+end
