@@ -1,0 +1,16 @@
+PODS:
+  - KanaConv (0.1.0)
+
+DEPENDENCIES:
+  - KanaConv (from `../`)
+
+EXTERNAL SOURCES:
+  KanaConv:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KanaConv: 57d70f6bfce5ca21e9b06bf7cb401ee1b92aef8a
+
+PODFILE CHECKSUM: 21b003706ffac57bc2dff272dc18d03fd417c039
+
+COCOAPODS: 1.0.0

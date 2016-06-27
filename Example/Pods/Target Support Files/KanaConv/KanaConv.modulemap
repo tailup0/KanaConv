@@ -1,0 +1,6 @@
+framework module KanaConv {
+  umbrella header "KanaConv-umbrella.h"
+
+  export *
+  module * { export * }
+}
